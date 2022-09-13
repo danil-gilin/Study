@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Feedback</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="Reload">Pass again</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_1">Feedback 1</string>
+    <string name="feedback_2">Feedback 2</string>
+    <string name="feedback_3">Feedback 3</string>
+    <string name="back">Back</string>
+    <string name="push">Post a review</string>
+    <string name="Preview">Welcome to the survey</string>
+    <string name="btn_go">Go</string>
+    <string name="title_date_main_fragment">Birthday</string>
+    <string name="welcom_fragment_date_btn">Birthday</string>
+
+
+</resources>

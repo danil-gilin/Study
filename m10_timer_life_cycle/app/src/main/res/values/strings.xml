@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Skill3_dz</string>
+    <string name="name_proggram">Countdown timer</string>
+    <string name="button_txt">START</string>
+    <string name="number_time">10</string>
+</resources>

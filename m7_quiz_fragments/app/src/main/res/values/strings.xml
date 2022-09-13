@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Feedback</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Reload">Пройти заново</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_1">Feedback 1</string>
+    <string name="feedback_2">Feedback 2</string>
+    <string name="feedback_3">Feedback 3</string>
+    <string name="back">Вернуться</string>
+    <string name="push">Отправить отзыв</string>
+    <string name="Preview">Приветствуем вас на опросе</string>
+    <string name="btn_go">Приступим</string>
+</resources>

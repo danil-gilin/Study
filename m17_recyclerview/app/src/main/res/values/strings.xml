@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecycleView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="full_img_transisiion_name">Img_Full_Transition</string>
+    <string name="main_to_full_Img">PHOTO_URL</string>
+    <string name="main_to_full_name">DATE</string>
+</resources>

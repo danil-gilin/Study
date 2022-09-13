@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.SeekBar.Daniil">
+        <item name="android:progressDrawable">@drawable/seek_bar</item>
+        <item name="android:enabled">true</item>
+        <item name="android:thumb">@drawable/thumb2</item>
+    </style>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/drawable/progress_bar.xml" value="0.174" />
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/drawable/seek_bar.xml" value="0.449" />
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/drawable/seek_bar_proggress.xml" value="0.1" />
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/drawable/seek_thum_enable.xml" value="0.1615" />
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/drawable/seek_thumb.xml" value="0.3545" />
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/drawable/thumb.xml" value="0.1615" />
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/drawable/thumb2.xml" value="0.1" />
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/drawable/thumb_enable.xml" value="0.1" />
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/drawable/thums_notenable.xml" value="0.1" />
+        <entry key="..\:/Project_android/Skill3_dz/app/src/main/res/layout/activity_main.xml" value="0.25727069351230425" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

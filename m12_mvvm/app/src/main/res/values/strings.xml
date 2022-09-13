@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVVM pattern</string>
+    <string name="Serach_rezult">Здесь будет отображаться результат запроса</string>
+    <string name="Serach_btn">Поиск</string>
+</resources>

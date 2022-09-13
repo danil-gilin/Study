@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_mars"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/info_back"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/img_mars"
+        app:layout_constraintEnd_toEndOf="@+id/img_mars"
+        app:layout_constraintStart_toStartOf="@+id/img_mars"
+        app:layout_constraintTop_toTopOf="@+id/rover"></LinearLayout>
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="camera"
+        android:textColor="#E40A0A"
+        app:layout_constraintBottom_toBottomOf="@+id/img_mars"
+        app:layout_constraintEnd_toEndOf="@+id/img_mars" />
+
+    <TextView
+        android:id="@+id/sol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="sol"
+        android:textColor="#E40A0A"
+        app:layout_constraintBottom_toTopOf="@+id/camera"
+        app:layout_constraintEnd_toEndOf="@+id/camera" />
+
+    <TextView
+        android:id="@+id/rover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:paddingTop="8dp"
+        android:text="rover"
+        android:textColor="#E40A0A"
+        app:layout_constraintBottom_toTopOf="@+id/date"
+        app:layout_constraintStart_toStartOf="@+id/date" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="date"
+        android:textColor="#E40A0A"
+        app:layout_constraintBottom_toBottomOf="@+id/img_mars"
+        app:layout_constraintStart_toStartOf="@+id/img_mars" />
+</androidx.constraintlayout.widget.ConstraintLayout>

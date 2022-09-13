@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Feedback</string>
+    <string name="Reload">Пройти заново</string>
+    <string name="feedback">Отзывы</string>
+    <string name="feedback_1">Отзыв 1</string>
+    <string name="feedback_2">Отзыв 2</string>
+    <string name="feedback_3">Отзыв 3</string>
+    <string name="back">Вернуться</string>
+    <string name="push">Отправить отзыв</string>
+    <string name="Preview">Приветствуем вас на опросе</string>
+    <string name="btn_go">Приступим</string>
+    <string name="title_date_main_fragment">День рождения</string>
+    <string name="welcom_fragment_date_btn">День рождения</string>
+</resources>

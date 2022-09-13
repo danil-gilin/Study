@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Seat_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Seat"
+        android:textColor="#63FF00"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#7C7C7C"
+        android:text="@string/reset"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:text="@string/start_count"
+        android:textColor="#020202"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Seat_count"
+        app:layout_constraintStart_toStartOf="@+id/Seat_count"
+        app:layout_constraintTop_toBottomOf="@+id/Seat_count"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <ImageView
+        android:id="@+id/btn_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/btn_minus"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:srcCompat="@drawable/ic_add_black_24dp" />
+
+    <ImageView
+        android:id="@+id/btn_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/btn_minus"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:srcCompat="@drawable/ic_remove_black_24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
